@@ -2,7 +2,7 @@
 
 This is an ethereum contract and associated Rust program that allows users to declare 
 an icon that describes themselves. There is no limitation on what users can set as their
-icon. Getting a users icon will also open that icon using the systems default opener for the
+icon. Getting a users icon will also open that icon using your system's default opener for the
 given file (e.g. an icon that is a png will open in your default image viewer).
 
 ## Testing
@@ -10,7 +10,7 @@ given file (e.g. an icon that is a png will open in your default image viewer).
 ### Starting an ethereum network and deploying the contract.
 Start an instance of Ganache and ensure that the RPC server is running on localhost:7545.
 
-Navigate to the ethereum director and run `yarn truffle migrate`. This will build and deploy
+Navigate to the ethereum directory and run `yarn truffle migrate`. This will build and deploy
 the ethereum contract.
 
 ### Starting a IPFS daemon.
@@ -24,7 +24,7 @@ Run `cargo build` to build the tool.
 ### Unit Testing
 Run `cargo test` to check that all unit tests pass.
 
-Now we can start testing the application. In this section, I will be used `cargo run ...` to
+Now we can start testing the application. In this section, I will be using `cargo run ...` to
 run my instance of the application.
 
 ### Setting an icon.
