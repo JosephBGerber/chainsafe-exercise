@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "truffle": "^5.4.33"
+    },
+    "license": "MIT"
+}

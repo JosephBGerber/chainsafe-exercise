@@ -1,0 +1,26 @@
+[package]
+name = "chainsafe-exercise"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bs58 = "0.4.0"
+byte-slice-cast = "1.2.0"
+clap = { version = "3.0", features = ["derive"] }
+futures = "0.3.21"
+hex = "0.4.3"
+ipfs-api-backend-hyper = "0.3.0"
+open = "2.0.3"
+regex = "1.5.4"
+serde = { version = "1.0", features = ["derive"]}
+serde_json = "1.0"
+tempfile = "3.3.0"
+thiserror = "1.0"
+tokio = { version = "1.15.0", features = ["full"] }
+web3 = "0.18.0"
+
+[[bin]]
+name = "iconic"
+path = "src/bin/iconic.rs"
